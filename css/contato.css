@@ -1,0 +1,12 @@
+.contato {
+  padding: 24px;
+}
+
+.contato-texto {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.contato-botao {
+  color: var(--cinza-escuro);
+}

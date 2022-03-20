@@ -1,0 +1,53 @@
+.chamada {
+  align-items: stretch;
+  background-color: var(--bg-chamada-mobile);
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.chamada-titulo {
+  color: currentColor;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.chamada-texto {
+  font-size: 1.25rem;
+  line-height: normal;
+  margin: 0 24px 40px;
+}
+
+.chamada-link {
+  color: var(--branco);
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 0 24px;
+}
+.chamada-link a {
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .chamada-texto {
+    margin: 0 128px 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .chamada {
+    background: none;
+  }
+
+  .chamada-titulo {
+    font-size: 3.25rem;
+  }
+
+  .chamada-texto {
+    margin: 0 256px 40px;
+  }
+}
